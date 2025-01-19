@@ -1,0 +1,26 @@
+MAIN / STARTING CLASS
+
+        fun main() {
+            println("Hello World!")
+        }
+-----
+VARIABLES
+* declare a valuable with this sequence:   val <filename>: type = <value>
+    * the keyword val suggests the variable is "read-only" and cannot be changed
+    * the keyword var suggests that the variable can be updated
+
+        fun main() {
+            val firstName: String = "Star"   //in this case (for a string), the type would not hve to be specified because of type inference
+            val firstName = "Star"
+
+            var weight = 92
+        }
+-----
+INPUTS
+
+        fun main() {
+            val <variableName) = readLine()!!  //takes in user input
+            print("You entered: $<variableName>")  //output is "You entered: " and the user's input
+        }
+-----
+MATH OPERATORS
