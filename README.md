@@ -1,4 +1,4 @@
-# Kotlin Repo
+# Kotlin Repo.
 ---
 
 This repository contains only files written in Kotlin. It serves as a digital notebook / reference for strengthening my skills in learning Kotlin.
